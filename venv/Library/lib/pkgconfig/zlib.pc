@@ -1,0 +1,13 @@
+prefix=E:/ai-resume-analyzer/venv/Library
+exec_prefix=E:/ai-resume-analyzer/venv/Library
+libdir=E:/ai-resume-analyzer/venv/Library/lib
+sharedlibdir=E:/ai-resume-analyzer/venv/Library/lib
+includedir=E:/ai-resume-analyzer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
